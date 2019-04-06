@@ -1,7 +1,7 @@
 {
   "name": "bitqueryd",
   "version": "0.1.7",
-  "description": "A Turing Complete Query Engine for Bitcoin",
+  "description": "A Turing Complete Query Engine for Bitcore",
   "main": "index.js",
   "author": "",
   "license": "MIT",
@@ -10,9 +10,10 @@
   },
   "dependencies": {
     "bcode": "0.0.6",
+    "bigjq": "0.0.7",
     "dotenv": "^6.0.0",
     "mongodb": "^3.1.4",
-    "bigjq": "0.0.7",
+    "test": "^0.6.0",
     "traverse": "^0.6.6"
   },
   "devDependencies": {

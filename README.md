@@ -2,13 +2,13 @@
 
 ## 1. What is bitquery?
 
-bitquery is a **Turing complete query language for building immutable API on Bitcoin**.
+bitquery is a **Turing complete query language for building immutable API on Bitcore**.
 
 ![f](./img/f.png)
 
 bitquery is a **portable**, **self-contained**, and **programmable** query language that lets you:
 
-1. **Query** bitcoin (via [bitdb](https://bitdb.network)) using a [mongodb query language](https://docs.mongodb.com/manual/tutorial/query-documents/)
+1. **Query** bitcore (via [bitdb](https://bitdb.network)) using a [mongodb query language](https://docs.mongodb.com/manual/tutorial/query-documents/)
 2. **Process** the result using [jq](https://en.wikipedia.org/wiki/Jq_(programming_language)), a turing complete functional programming language
 3. All within a single **self-contained declarative query language**.
 
@@ -26,9 +26,9 @@ With this combination, you can create your own custom API that's:
 
 - **portable:** written in JSON, it's natively supported by all devices, OS, programming languages, and databases.
 - **self-contained:** since the processing function can transform the query result into any format, the query can act as a high level API.
-- **programmable:** combine with other queries to build apps that talk to one another based on bitcoin state
+- **programmable:** combine with other queries to build apps that talk to one another based on bitcore state
 
-## 2. Build your own API from Bitcoin!
+## 2. Build your own API from Bitcore!
 
 Here's a simple bitquery (You can learn more about the syntax [here](https://docs.bitdb.network/query))
 
@@ -75,7 +75,7 @@ Thanks to this additional step, this will respond with:
 To summarize, with bitquery:
 
 1. **Flexible Query:** You can write a portable JSON query to read from the blockchain.
-2. **Response Processing:** You can also add additional step to represent the processing logic, which will return your own custom immutable stream of data from bitcoin, or also known as **API**.
+2. **Response Processing:** You can also add additional step to represent the processing logic, which will return your own custom immutable stream of data from bitcore, or also known as **API**.
 2. **Interoperable:** When you mix and match these APIs together, you can create applications that trigger and talk to one another in a deterministic manner.
 
 ---
