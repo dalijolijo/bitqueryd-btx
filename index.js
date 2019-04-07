@@ -78,7 +78,7 @@ var exit = function() {
 var init = function(config) {
   return new Promise(function(resolve, reject) {
     let url = (config && config.url ? config.url : "mongodb://localhost:27017")
-    let name = (config && config.name ? config.name : "bitdb")
+    let name = (config && config.name ? config.name : "bitdb-btx")
     let sockTimeout = (config && config.timeout) ? config.timeout + 100 : 20100
     if (/mongodb:.*/.test(url)) {
       MongoClient.connect(url, {

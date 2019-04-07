@@ -1,4 +1,4 @@
-# bitqueryd
+# bitqueryd for Bitcore (BTX)
 
 ## 1. What is bitquery?
 
@@ -99,7 +99,7 @@ bitqueryd is a query engine that directly interfaces with a BitDB node. You must
 ## 3. install
 
 ```
-npm install --save bitqueryd
+npm install
 ```
 
 ## 4. usage
